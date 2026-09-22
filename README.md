@@ -7,11 +7,6 @@ Standard IoT sensors continuously transmit raw, noisy data to the cloud, wasting
 2. **Digital Signal Processing:** Implemented a lightweight Exponential Moving Average (EMA) filter in C++ to smooth raw Z-axis accelerometer data locally.
 3. **Smart Transmission:** The node only transmits an alert state when a calculated acceleration threshold (> 1.5g) is breached, saving IoT gateway bandwidth.
 
-## Digital Twin / Simulation
-Because physical hardware is currently constrained, I built a Digital Twin of the system using the Wokwi simulator. 
-
-* **Live Simulation Link:** [PASTE_YOUR_WOKWI_LINK_HERE]
-
 ### System Output (Debug Mode)
 ```text
 Raw: 1.02 | Filtered: 1.05
